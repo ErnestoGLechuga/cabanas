@@ -2,14 +2,15 @@ body
 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(100, 53, 31, 0.81);
+    color: rgba(108, 59, 33, 0.81);
 }
 
 header{
     display: flex;
     justify-content: space-around;
-    background: rgba(213, 162, 89, 0.71);
+    background: rgba(115, 84, 33, 0.71);
     align-items: center;
+    list-style: none;
 }
 
 .cover-picture{
@@ -31,6 +32,13 @@ header{
 .nav-bar-menu li{
     list-style: none;
     margin-left: 10px;
+}
+
+.nav-bar-menu a{
+    list-style: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: bisque;
 }
 
 .gallery
